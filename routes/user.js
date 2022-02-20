@@ -13,7 +13,7 @@ const {
 
 //require middlewares
 const isAuth = require("../middleware/isAuth");
-const isAdmin = require("../middleware/isAdmin");
+// const isAdmin = require("../middleware/isAdmin");
 const {
   registerValidator,
   validations,
