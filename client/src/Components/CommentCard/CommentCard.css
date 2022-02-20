@@ -1,0 +1,58 @@
+#fa-edit {
+  font-size: 25px;
+}
+.commentCard {
+  width: 575px;
+  background-color: white;
+  display: flex;
+  border-radius: 15px;
+  padding: 1% 5%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+.commentImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  margin-right: 10%;
+}
+
+.commentCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
+  margin-right: 10%;
+}
+.commentAuther {
+  font-size: larger;
+  color: #1611ee;
+}
+.commentIcons {
+  font-size: 25px;
+  margin: 1%;
+}
+#editCommentInput {
+  border: 0;
+  outline: 0;
+  background: white;
+  width: 300px;
+  margin-top: 5px;
+  line-height: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  transition: width 0.4s linear;
+}
+
+.editComment {
+  background-color: teal;
+}

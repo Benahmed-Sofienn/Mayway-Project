@@ -1,0 +1,7 @@
+.clientsList {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 3% 0%;
+   min-height: 350px;
+}

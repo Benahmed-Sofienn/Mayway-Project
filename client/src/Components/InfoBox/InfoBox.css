@@ -1,0 +1,13 @@
+.InfoBox{
+    background-color: #eee;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 700px;
+    padding: 1% 5%;
+    margin-top: 2%;
+}
+.otherDepature{
+    display: flex;
+}

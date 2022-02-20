@@ -1,0 +1,71 @@
+.ProfilePage {
+  display: flex;
+  justify-content: center;
+  margin: 2% 15%;
+  border: 1px;
+  border-radius: 20px;
+  background-color: #f5edf0;
+  width: 910px;
+}
+.ImgProfil {
+  width: 250px;
+}
+.fixed {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 300px;
+  margin: 1%;
+  padding: 7% 0%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.ImgDiv {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.varible {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 600px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5% 0px;
+}
+.fullName,
+.adresse {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0% 0% 5% 0%;
+}
+
+.profileInput {
+  border-radius: 5px;
+  border: solid 1px #e8e8e9;
+  height: 48px;
+  width: 100%;
+  color: #0f0f0f;
+}
+.adresseInput {
+  width: 420px;
+}
+
+.changeProfileBtn {
+  background-color: #6a6f8c;
+  font-size: larger;
+  color: #e8e8e9;
+  border-radius: 5px;
+  border: none;
+  padding: 2%;
+}

@@ -1,0 +1,144 @@
+.accueil {
+  background-image: url("../../assets/Img/landpageBg.jpg");
+  background-position: center;
+  background-position-y: -20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firtBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startBtn {
+  margin-top: 300px;
+  background: radial-gradient(ellipse at center center, #5b5e61cb, #1890ff);
+  border: none;
+  border-radius: 10px;
+  padding: 2%;
+}
+.startBtn:hover {
+  box-shadow: 0px 5px 10px rgba(33, 121, 221, 0.801);
+}
+.startText {
+  color: #fff;
+  font-weight: 800;
+}
+
+.SVG_div {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+#LogoSvG {
+  animation: logo 10s ease-in-out infinite;
+  margin: 0% 2%;
+}
+
+@keyframes logo {
+  0% {
+    transform: rotate(0deg);
+  }
+  27% {
+    transform: rotate(0deg);
+  }
+
+  30% {
+    transform: rotate(10deg);
+  }
+  34% {
+    transform: rotate(-10deg);
+  }
+
+  38% {
+    transform: rotate(20deg);
+  }
+  42% {
+    transform: rotate(-20deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  77% {
+    transform: rotate(180deg);
+  }
+
+  80% {
+    transform: rotate(190deg);
+  }
+  84% {
+    transform: rotate(170deg);
+  }
+
+  88% {
+    transform: rotate(200deg);
+  }
+  92% {
+    transform: rotate(160deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.titleSpam {
+  color: #1161ee;
+}
+.appDescrition {
+  font-size: 18px;
+  color: #555;
+  padding-bottom: 15px;
+  width: 500px;
+}
+
+.Carrousel {
+  width: 96%;
+  margin: 1% 0% 1% 2%;
+}
+
+.numbersContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 2% 0% 3% 10%;
+}
+
+.Numberss {
+  clip-path: polygon(5% 25%, 50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%);
+  background: linear-gradient(40deg, #001011cb, #1890ff);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.numbersIcon {
+  font-size: 100px;
+}
+
+.Numberss h2 {
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 50px;
+}
+.Numberss h4 {
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: -10%;
+  margin-bottom: 50px;
+}
+
+#starter {
+  color: white;
+}

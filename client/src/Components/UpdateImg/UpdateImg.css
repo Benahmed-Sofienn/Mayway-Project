@@ -1,0 +1,38 @@
+
+.flou{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center ;
+  background-color: rgba(8, 8, 8, 0.76); 
+  margin: 3% 30% 10% 30%;
+  padding: 5%;
+  position: absolute;
+  width: 105%;
+  height: 900px;
+  top: -40px;
+  left: -410px;
+}
+.imgModal{
+    background-color: white;
+    padding: 5%;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: white;
+}
+.imgSelect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.imgContainer{
+    width: 80px;
+    height: 80px;
+    margin: 1%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

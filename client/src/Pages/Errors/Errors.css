@@ -1,0 +1,21 @@
+
+.NotFoundPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 100vw; */
+    min-height: 100vh;
+}
+.ErrorIcon{
+    margin: 0%;
+    font-size: 200px;
+}
+.e404{
+    margin: 0%;
+    font-size: 70px;
+}
+.NotFound{
+    margin: 0%;
+    font-size: 30px;
+}

@@ -1,0 +1,38 @@
+.CommentsList{
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 1%;
+}
+.newComment{
+    display: flex;
+}
+.commentInput{
+ 
+  border: 0;
+  outline: 0;
+  background: white;
+  width: 500px;
+  margin-top: 5px; 
+  line-height: 20px; 
+  border-radius: 10px;
+  padding:  10px; 
+  font-size: 19px;
+  font-weight: 300;
+  color: black;
+  transition: width 0.4s linear;
+}
+.commentBtn{
+    background-color: #536bf6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+}

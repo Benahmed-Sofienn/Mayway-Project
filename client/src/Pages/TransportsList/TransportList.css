@@ -1,0 +1,13 @@
+.transportPage{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 63vh;
+}
+.transportList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
